@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Rubik',sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* components  */
+.h-75{
+  height: 75% !important
+}
+.h-25{
+  height: 25% !important
+}
+
+.bg-primary-50{
+  background-color:#FFF2EF
+}
+.ml-85{
+  margin-left: 21rem;
+/* margin-right: 2rem; */
+}
+/* tables */
+
+/* status ellipses */
+.ellipse{
+  width:7px;
+  height:7px;
+}
+.md-ellipse{
+  width:40px;
+  height:40px;
+}
+
+form div .form-control:focus{
+  border:1px solid #1068EB
+}
+table{
+  padding:5px;
+}
+.thead th{
+  padding: 15px 0;
+}
+thead tr{
+  border-bottom: 1px solid #d4d4d4;
+}
+tbody tr{
+  margin-left: 10px;
+  border-bottom: 1px solid #d4d4d4;
+  text-align: center;
+}
+tbody tr td{
+  padding:5px;
+}
+
+/* sidebar */  
+.sidebar{
+  height: 100%
+}
+.app-menu a{
+  padding:7px
+}
+.app-menu a:hover{
+  background-color:#ec634818;
+  color:#EC6448;
+  border-right: 5px solid #EC6448;
+}
+.app-menu a:hover .menu-icons{
+  fill:#EC6448
+}
+.app-menu .active{
+  background-color:#ec634818;
+  color:#EC6448;
+  border-right: 5px solid #EC6448;
+}
+.app-menu .active .menu-icons{
+  
+  fill:#EC6448
+}
+
+
+/* icons */
+.icon-primary{
+  fill:#EC6448
+}
+
+/* cards */
+.card-circle{
+  width:70px;
+  height:70px;
+}
+
+/* sidebar ends here */
+div::-webkit-scrollbar {
+  width: .5em;
+}
+ 
+div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(136, 136, 136, 0.3);
+}
+ 
+div::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4;
+}
+
+
+/* notification && messages*/
+.message--ball{
+width:25px;
+height:25px;
+}
+
+
+
+
+
+
+
+/* modals */
+
+/* The Modal (background) */
+.modal {
+  /* display: none; Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* padding-top: 10px; Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+​
+.modal-displayed {
+  display: block;
+}
+​
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  min-width: 80%;
+}
+
+
+
+
+
+
+
+/* progress bar styles */
+
+
+#nprogress .bar {
+  height:5px !important;
+}
+
+#container {
+  padding:40px;
+  /* background-color:grey; */
+  /* color:white; */
+}
+#nprogress .bar {
+  background: #EC6448 !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #EC6448;
+  border-left-color: #EC6448;
+}
